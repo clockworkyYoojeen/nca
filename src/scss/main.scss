@@ -9,3 +9,72 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.section_title{
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #15449D;
+    text-transform: uppercase;
+}
+.read-more{
+    width: 253px;
+    height: 100px;
+    margin-top: 73px;
+    margin-bottom: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        background-color: #15449d;
+        z-index: 1;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 8px;
+        top: 50%;
+        transform: translateY(-4px);
+        right: 0;
+        background: url('http://localhost:9000/img/arrow-right.png') no-repeat;
+    }
+    strong{
+        color: #15449d;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-left: 7px;
+        z-index: 2;
+        span{
+            color: #fff;
+        }
+    }
+}
+.read-more._white{
+    &:before{
+        background-color: #fff;
+    }
+    &:after{
+        background: url('http://localhost:9000/img/arrow-right-white.png') no-repeat;
+    }
+    strong{
+        color: #fff;
+        span{
+            color: #15449d;
+        }
+    }
+}
+/*** slick slider ***/
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}

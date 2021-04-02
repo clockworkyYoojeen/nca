@@ -1,0 +1,35 @@
+.audit{
+    /***  потом убрать height !!! ***/
+    // height: 900px;    
+    background: url('http://localhost:9000/img/audit-bg2.jpg') no-repeat;
+    background-size: cover;
+}
+.audit__content{
+    padding: 175px 172px 235px 102px;
+    height: 100%;
+    max-width: 1180px;
+    width: 62%;
+    background-color: #fff;
+    margin-left: auto;
+}
+.audit__text{
+    padding-left: 100px;
+}
+.audit__text h5, .audit__text p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.audit__text p{
+    position: relative;
+    padding-left: 45px;
+    &:before{
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 1px;
+        background-color: #000;
+        left: 0;
+        top: 20px;
+    }
+}

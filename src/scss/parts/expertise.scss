@@ -1,0 +1,18 @@
+.audit._blue{   
+    background: url('http://localhost:9000/img/expertise-bg.jpg') no-repeat;
+    background-size: cover;
+}
+.audit__content._blue{
+    background-color: #15449d;
+}
+.section_title._blue{
+    color: #fff;
+}
+.audit._blue .audit__text h5, .audit._blue .audit__text p{
+    color: #fff;
+}
+.audit._blue .audit__text p{
+    &:before{
+        background-color: #fff;
+    }
+}

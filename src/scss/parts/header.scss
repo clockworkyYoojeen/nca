@@ -1,22 +1,22 @@
 header{
 	position: relative;
-	background-image: url('http://localhost:3000/img/header_bg.png');
+	background: url('http://localhost:9000/img/header_bg.png');
 	background-size: cover;
+	padding-right: 163px;
 }
-
 .header-inner{
 	position: relative;
 	padding-top: 44px;
 	max-width: 1310px;
-    width: 85%;
+    width: 90%;
 	height: 100%;
 	padding-bottom: 170px;
 	background-image: linear-gradient(to right, rgba(255,255,255,.8) 0% 25%, rgba(255,255,255,.87) 25% 50%, rgba(255,255,255,.8) 50% 75%,rgba(255,255,255,.87) 75% 100%);
 }
 .top-navbar{
 	display: flex;
-    max-width: 1140px;
-    margin-left: auto;
+    // max-width: 1140px;
+	padding-left: 100px;
 }
 .top-navbar__logo-cont, .top-navbar__link-cont{
 	display: flex;
@@ -42,9 +42,7 @@ header{
 	padding-bottom: 25px;
 }
 .slogan__inner{
-    max-width: 1140px;
-    margin-left: auto;
-    padding-left: 13px;   
+    padding-left: 100px;   
 }
 .slogan__header{
 	font-weight: 900;
@@ -60,9 +58,7 @@ header{
 }
 .advantages__inner{
 	display: flex;
-    max-width: 1140px;
-    margin-left: auto;
-    padding-left: 13px;
+    padding-left: 100px;
 	padding-top: 50px;
 	padding-bottom: 45px;
 }
@@ -85,4 +81,57 @@ header{
 }
 .advantages__inner > div strong{
 	font-size: 22px;
+}
+.request{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding-left: 22px;
+	width: 200px;
+	height: 135px;
+	background-color: #15449d;
+	position: absolute;
+	right: -62px;
+}
+.request__title{
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.request__image{
+	position: absolute;
+	right: 18px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.request.first{
+	bottom: 160px;
+}
+.request.second{
+	bottom: 305px;
+}
+.phones{
+	display: flex;
+	position: absolute;
+	top: 68px;
+	right: 63px;
+	align-items: center;
+}
+.phones span{
+	color: #fff;
+	display: block;
+}
+.phones .phone-icon{
+	display: flex;
+	justify-content: center;
+	background-color: #6d6d6d;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+.phones i{
+	align-self: center;
+	color: #fff;
+	font-size: 16px;
 }
