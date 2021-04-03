@@ -272,6 +272,7 @@
   line-height: 1.2;
 }
 header {
+  display: none;
   position: relative;
   background: url("../../img/header_bg.png");
   background-size: cover;
