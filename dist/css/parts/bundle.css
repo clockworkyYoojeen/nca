@@ -272,8 +272,9 @@
   line-height: 1.2;
 }
 header {
+  display: none;
   position: relative;
-  background: url("http://localhost:9000/img/header_bg.png");
+  background: url("../../img/header_bg.png");
   background-size: cover;
   padding-right: 163px;
 }
