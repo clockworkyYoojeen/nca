@@ -133,8 +133,6 @@
   border: 1px solid #15449d;
   border-radius: 50%;
 }
-@charset "UTF-8";
-
 .audit {
   /***  потом убрать height !!! ***/
   background: url("http://localhost:9000/img/audit-bg2.jpg") no-repeat;
