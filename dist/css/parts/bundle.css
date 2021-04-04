@@ -134,8 +134,7 @@
   border-radius: 50%;
 }
 .audit {
-  /***  потом убрать height !!! ***/
-  background: url("http://localhost:9000/img/audit-bg2.jpg") no-repeat;
+  background: url("https://ncadesign.netlify.app/img/audit-bg2.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -174,7 +173,7 @@
   top: 20px;
 }
 .audit._blue {
-  background: url("http://localhost:9000/img/expertise-bg.jpg") no-repeat;
+  background: url("https://ncadesign.netlify.app/img/expertise-bg.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -270,11 +269,11 @@
   line-height: 1.2;
 }
 header {
-  display: none;
   position: relative;
-  background: url("../../img/header_bg.png");
+  background: url("https://ncadesign.netlify.app/img/header_bg.jpg");
   background-size: cover;
   padding-right: 163px;
+  /***   ***/
 }
 
 .header-inner {
@@ -672,7 +671,7 @@ header {
 .trust {
   margin-top: 115px;
   padding-bottom: 80px;
-  background: url("http://localhost:9000/img/trust-bg.png") no-repeat;
+  background: url("https://ncadesign.netlify.app/img/trust-bg.png") no-repeat;
   background-position: left top;
   padding-left: 22px;
   padding-right: 22px;
